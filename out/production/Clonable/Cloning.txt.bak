@@ -1,0 +1,25 @@
+Clonable: It is a Marker Interface, because not contain any methods.
+
+Cloning:
+
+purpose: To maintain backup copy
+         To preserve state of original Object
+		 
+		 
+We can perform cloning by using clone method of Object class.
+
+protected native Object clone() throws cloneNotSupportedException
+
+Clone method persent in Object, not in Clonable		 
+
+
+
+Shallow Cloning: The procees of creating Bitwise copy of an object is called Shallow cloning.
+                 If the main object contains primitive variables, then exactly duplicate copies will be created in the cloned
+				 object.
+				 If the main object contains any refrence variable then corresponding object will not created just duplicate 
+				 refrence variable will be created pointing to old content object.
+				 
+				 Object class clone method only for Shallow Cloning.
+				 
+				 
